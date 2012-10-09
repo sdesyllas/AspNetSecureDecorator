@@ -1,0 +1,4 @@
+AspNetSecureDecorator
+=====================
+
+[SecurePage] decorator
