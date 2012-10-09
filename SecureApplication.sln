@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureApplication", "SecureApplication\SecureApplication.csproj", "{C4A227AA-E837-482E-B2C0-7D3921EF96CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xeyanord.SecurePageDecorator", "Xeyanord.SecurePageDecorator\Xeyanord.SecurePageDecorator.csproj", "{905E8E8F-F2C5-4F26-ABF8-1E7C092EAEF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4A227AA-E837-482E-B2C0-7D3921EF96CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A227AA-E837-482E-B2C0-7D3921EF96CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A227AA-E837-482E-B2C0-7D3921EF96CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A227AA-E837-482E-B2C0-7D3921EF96CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905E8E8F-F2C5-4F26-ABF8-1E7C092EAEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905E8E8F-F2C5-4F26-ABF8-1E7C092EAEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905E8E8F-F2C5-4F26-ABF8-1E7C092EAEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905E8E8F-F2C5-4F26-ABF8-1E7C092EAEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
