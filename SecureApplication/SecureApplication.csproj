@@ -79,7 +79,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Xeyanord.SecurePageDecorator\Xeyanord.SecurePageDecorator.csproj">
+    <ProjectReference Include="..\Xeyanord.SecurePageDecorator\Xeyanord.SecurePageDecorator.csproj">
       <Project>{905e8e8f-f2c5-4f26-abf8-1e7c092eaef8}</Project>
       <Name>Xeyanord.SecurePageDecorator</Name>
     </ProjectReference>

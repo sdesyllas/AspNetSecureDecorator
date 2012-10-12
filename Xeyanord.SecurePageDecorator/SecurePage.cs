@@ -10,14 +10,18 @@ namespace Xeyanord.SecurePageDecorator
     {
         public SecurePage()
         {
-            HttpRequest request = HttpContext.Current.Request;
-            HttpResponse response = HttpContext.Current.Response;
-            //check to see if we are at an http application
-            if (request != null && response != null)
+            //check to see if this library is used in a web app
+            if (HttpContext.Current != null)
             {
-                if (!request.IsSecureConnection)
+                HttpRequest request = HttpContext.Current.Request;
+                HttpResponse response = HttpContext.Current.Response;
+                //check to see if we are at an http application
+                if (request != null && response != null)
                 {
-                    response.Redirect(request.Url.AbsoluteUri.Replace("http://", "https://"));
+                    if (!request.IsSecureConnection)
+                    {
+                        response.Redirect(request.Url.AbsoluteUri.Replace("http://", "https://"));
+                    }
                 }
             }
         }
